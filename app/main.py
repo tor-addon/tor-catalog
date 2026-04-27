@@ -21,7 +21,7 @@ if __name__ == "__main__":
     import os
     
     # Mode développement local (port 8000)
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 8001))
     # En production, on désactive le reload auto pour les performances
     reload = os.environ.get("ENV", "development") == "development"
     
